@@ -14,9 +14,19 @@
         <h2 class="err0">Página não encontrada!</h2>
     </div>
     
-    <div class="container">
+    <div class="carga">
         <div class="load_1"></div>
     </div>
+
+    {% if user.is_authenticated %}
+    
+    {% else %}
+        <div class="container">
+            <h3 class="suporte">Clique 
+                <a class="home" href="/">aqui</a> para voltar.
+            </h3>
+        </div>
+    {% endif %}
 
 
 {% endblock %}

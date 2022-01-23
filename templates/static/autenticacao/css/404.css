@@ -15,9 +15,32 @@
     border-radius: 26px;
 }
 
-.container{
+.carga{
     display: flex;
     justify-content: center;
+}
+
+.container{
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.suporte{
+    text-align: center;
+    color: #30CD9E;
+}
+
+.home{
+    color: #30CD9E;
+    border-bottom: solid 2px #30CD9E;
+}
+
+.home:hover{
+    border: hidden;
+    background-color: turquoise;
+    color: white;
 }
 
 @media (max-width: 418px)
