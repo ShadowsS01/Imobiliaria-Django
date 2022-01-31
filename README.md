@@ -1,8 +1,8 @@
-# Imobiliaria-Django
-
+# Imobiliaria-Django <img alt="logo" width="4%" src="templates/static/autenticacao/img/logo.png"/></h1>
+  
 [![licence mit](https://img.shields.io/badge/licence-MIT-turquoise)](LICENSE)
 
-> Um projeto simples usando o Framework Django para desenvolver uma aplicação web de uma imobiliária.
+>Um projeto simples usando o Framework Django para desenvolver uma aplicação web de uma imobiliária.
 
 ## Ferramentas Utilizadas
 
