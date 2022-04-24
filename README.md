@@ -2,7 +2,7 @@
   
 [![licence mit](https://img.shields.io/badge/licence-MIT-turquoise)](LICENSE)
 
->Um projeto simples usando o Framework Django para desenvolver uma aplicação web de uma imobiliária.
+>Um projeto usando o Framework Django para desenvolver uma aplicação web de uma imobiliária.
 
 ## Ferramentas Utilizadas
 
