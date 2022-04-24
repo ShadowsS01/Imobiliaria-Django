@@ -1,8 +1,8 @@
 # Imobiliaria-Django <img alt="logo" width="4%" src="templates/static/autenticacao/img/logo.png"/></h1>
-  
+
 [![licence mit](https://img.shields.io/badge/licence-MIT-turquoise)](LICENSE)
 
->Um projeto usando o Framework Django para desenvolver uma aplicação web de uma imobiliária.
+> Um projeto usando o Framework Django para desenvolver uma aplicação web de uma imobiliária.
 
 ## Ferramentas Utilizadas
 
@@ -42,15 +42,26 @@ Inicie um ambiente virtual e ative-o. Se não souber como, isso pode ajudar: (<h
 pip install -r requirements.txt
 ```
 
-### 5. Modificar as Constantes
+### 5. Configurar variáveis de ambiente
 
-Na pasta do projeto, vá na pasta `imobi` e abra o `settings.py`.
-Troque o valor da constante `SECRET_KEY` para uma senha qualquer, e do `DEBUG` para `True`. Dessa forma:
+Copie o arquivo `.env.example` neste diretório para `.env` (que será ignorado pelo Git):
+
+```bash
+cp .env.example .env
+```
+
+- Se der errado o `cp` crie o arquivo `.env` nesta pasta.
+
+Em seguida, defina cada variável em `.env`:
 
 ```text
-SECRET_KEY = "Digite_Uma_Senha_Secreta_aqui"
-DEBUG = True
+SECRET_KEY=Digite_Uma_Senha_Secreta_aqui
+DEBUG=True
 ```
+
+- Antes de ir para a proxima etapa, é necessário fazer uma alteração no `settings.py` na pasta do projeto `imobi`.
+- Entre na pasta do projeto, vá até o final do arquivo `settings.py`, comente ou remova as linhas da AWS. Estas são as últimas linhas após o comentário `#AWS`.
+- Usei o [AWS](https://aws.amazon.com/) somente para carregar as imagens ao fazer [deploy](#deploy) no [heroku](https://devcenter.heroku.com/). Por isso não é necessário no desenvolvimento, mas se quiser usar, coloque no `.env` as informações do seu [AWS](https://aws.amazon.com/).
 
 ### 7. Migações no Banco Dados
 
