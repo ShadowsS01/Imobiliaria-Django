@@ -8,6 +8,7 @@
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
+- [Bootstrap](https://getbootstrap.com/)
 - [Python](https://www.python.org/)
 - [Django](https://www.djangoproject.com/)
 
@@ -86,6 +87,10 @@ Apartir daí crie os seus links**
 ## Deploy
 
 O deploy da aplicação foi feito no [Heroku](https://devcenter.heroku.com/).
+
+## Créditos
+
+> Projeto criado e desenvolvido no evento online e gratuito PystackWeek 2.0 da [Pythonando](https://github.com/Pythonando)
 
 ## Licença
 
